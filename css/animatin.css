@@ -1,0 +1,119 @@
+
+  .element {
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    animation-duration: 3s, 5s;
+    animation-timing-function: ease, linear;
+    animation-delay: 0s, 0s;
+    animation-iteration-count: infinite, infinite;
+    animation-direction: alternate, alternate;
+    animation-fill-mode: none, none;
+    animation-play-state: running, running;
+    animation-name: pulse, nudge;
+    border-radius: 100%;
+}
+@keyframes pulse {
+    0%, 100% {
+      background-color: red;
+    }
+    50% {
+      background-color: orange;
+    }
+  }
+  
+  @keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    
+    50% {
+      transform: translate(150px, 0);
+    }
+    
+    80% {
+      transform: translate(-150px, 0);
+    }
+  }
+
+  .box img{
+    background-color: rebeccapurple;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    animation-name: rotate; 
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+      top: 50%;
+    left: 50%;
+    }
+    20%{
+        transform: rotate(100deg);
+      top: -50%;
+    left: -50%;
+    }
+    40%{
+        transform: rotate(150deg);
+      top: 60%;
+    left: 60%;
+    }
+    60%{
+        transform: rotate(170deg);
+      top: -70%;
+    left: -70%;
+    }
+    80%{
+        transform: rotate(200deg);
+      top: 70%;
+    left: 70%;
+    }
+    100% {
+      transform: rotate(360deg);
+      top: 80%;
+    left: 80%;
+    }
+  }
+  .box1 img{
+    background-color: rebeccapurple;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    animation-name: rotate; 
+    animation-duration: .7s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(99deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

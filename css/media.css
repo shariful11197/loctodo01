@@ -1,0 +1,112 @@
+@media (max-width: 1399px){
+
+}
+@media (max-width: 1199px){
+    .text-content h6 {
+        font-size: 20px;
+    }
+    .banner-content h2 {
+        font-size: 28px;
+    }
+    .product-content p {
+        font-size: 14px;
+    }
+    .wight-footer-content ul li form input {
+        font-size: 13px;
+    }
+}
+@media (max-width: 991px){
+    .navbar .cart-inner {
+        width: 22%;
+    }
+    .text-content h6 {
+        font-size: 20px;
+    }
+    .banner-content h2 {
+        font-size: 23px;
+    }
+    .footer-content .img-fluid {
+        max-width: 75px;
+    }
+    .view{
+        bottom: 90px;
+    }
+    .product-inner:hover .view{
+        bottom: 120px;
+    }
+    .db{
+        display: none;
+    }
+    .wight-footer-content ul h4 {
+        font-size: 15px;
+    }
+    .or{
+        order: -1;
+    }
+    .wight-footer-content{
+        margin-top: 20px;
+    }
+    footer .img-fluid {
+        max-width: 130px;
+    }
+}
+@media (max-width: 767px){
+    .top-header {
+        display: none;
+    }
+    .cart-inner {
+        display: none;
+    }
+    .text-content h6 {
+        font-size: 15px;
+    }
+    .banner {
+        padding: 166px 0px;
+    }
+    .product {
+        padding: 37px 0;
+    }
+    .footer-content .img-fluid {
+        max-width: 59px;
+    }
+    .footer-content ul li form input {
+        font-size: 17px;
+    }
+    .navbar-brand .img-fluid {
+        max-width: 82px;
+    }
+}
+@media (max-width: 575px){
+    .wight-footer-content ul h4 {
+        font-size: 25px;
+    }
+    .wight-footer-content ul li {
+        font-size: 17px;
+    }
+    .wight-footer-content ul li form input {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+    .wight-footer-content ul li form .btn-icon {
+        position: absolute;
+        top: 36px;
+    }
+    .footer-content .img-fluid {
+        max-width: 47px;
+    }
+    .navbar-brand .img-fluid {
+        max-width: 78px;
+    }
+    
+}
+@media (max-width: 480px){
+    .banner-content h2 {
+        font-size: 17px;
+    }
+    .wight-footer-content ul li {
+        font-size: 15px;
+    }
+    .navbar-brand .img-fluid {
+        max-width: 75px;
+    }
+}
